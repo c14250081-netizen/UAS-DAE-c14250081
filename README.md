@@ -40,8 +40,6 @@ Analisis ini menggunakan **1.300 universitas di US** dengan tujuan melakukan kla
 #### 2. Decision Tree Classification
 * **Algoritma:** **Decision Tree** digunakan untuk memprediksi status universitas.
 * **Insight Kecenderungan:**
-    * **Private (2) Cenderung:** Biaya kuliah **lebih tinggi**, *Acceptance rate* **lebih rendah**, *Size* mahasiswa **lebih kecil**, *Graduation rate* **lebih tinggi**.
-    * **Public (1) Cenderung:** Biaya **lebih rendah**, Populasi mahasiswa **lebih besar**, *Student/Faculty ratio* **lebih besar**.
 * **Prediktor Kuat:** Biaya kuliah dan tingkat kelulusan (*Graduation rate*) adalah prediktor terkuat.
 
 #### 3. Scorer (Confusion Matrix Summary)
