@@ -3,7 +3,7 @@ Tentu, berikut adalah ringkasan dan visualisasi dari analisis data universitas A
 
 ## 📊 Ringkasan Analisis Data Universitas
 
-Analisis ini menggunakan **1.300 universitas di US** dengan tujuan melakukan klasifikasi status universitas (**Public (1)** atau **Private (2)**) menggunakan algoritma **Decision Tree**.
+Analisis ini menggunakan **1.300 universitas di US** dengan tujuan mencari insight (visualisasi) dan melakukan klasifikasi status universitas (**Public (1)** atau **Private (2)**) menggunakan algoritma **Decision Tree**.
 
 ---
 
@@ -26,7 +26,70 @@ Analisis ini menggunakan **1.300 universitas di US** dengan tujuan melakukan kla
 #### 4. Column Appender
 * **Penggabungan:** Menggabungkan kembali **fitur numerik yang sudah dinormalisasi** dengan **kolom target kategori (public/private)**.
 
+### 📈 Visualisasi (insight yang didapat dari visualisasi)
+#### 1. Histogram : Sebaran Graduation Rate (Tingkat Kelulusan)
+- Mayoritas universitas berada pada **graduation rate tinggi (70–90%)**.
+- Hampir tidak ada universitas dengan tingkat kelulusan sangat rendah.
+- Hal ini menunjukkan bahwa **kualitas kelulusan secara umum baik** dan **standar akademik terjaga**.
+##### Insight
+➡️ Tingginya tingkat kelulusan dapat menjadi indikator bahwa:
+- Dukungan akademik kepada mahasiswa berjalan efektif.
+- Kualitas kurikulum stabil dan relevan.
+- Proses seleksi mahasiswa cukup ketat, sehingga mahasiswa yang diterima memiliki kesiapan akademik tinggi.
+
+#### 2. Histogram : Sebaran % Faculty with PhD
+- Distribusi persentase dosen bergelar PhD cukup menyebar, namun mayoritas berada pada kisaran **50–80%**.
+- Terdapat beberapa outlier dengan persentase dosen PhD **mendekati 95–100%**, menunjukkan kualitas akademik sangat tinggi.
+##### Insight
+➡️ Universitas dengan persentase dosen PhD lebih tinggi cenderung memiliki:
+- Kapasitas riset lebih kuat dan berpengaruh.
+- Akses lebih mudah terhadap pendanaan akademik dan hibah penelitian.
+- Kualitas pengajaran yang lebih baik dan berbasis riset mutakhir.
+
+#### 3. Scatter Plot: % Faculty PhD vs Graduation Rate
+Visualisasi menunjukkan adanya **korelasi positif** antara:
+- persentase dosen bergelar PhD, dan  
+- tingkat kelulusan mahasiswa (graduation rate).
+Semakin tinggi persentase dosen PhD dalam suatu universitas, semakin tinggi pula graduation rate yang dicapai. Meskipun hubungan ini **tidak bersifat linear sempurna**, tren peningkatan terlihat cukup jelas.
+##### Interpretasi
+➡️ Tingkat pendidikan dosen **berkorelasi langsung** dengan keberhasilan kelulusan mahasiswa.
+##### Makna :
+- **Kompetensi dosen** mendorong mahasiswa menyelesaikan studi tepat waktu.
+- Lingkungan akademik yang lebih berkualitas menciptakan lulusan yang lebih siap secara intelektual dan profesional.
+- Dosen bergelar PhD biasanya memiliki kapasitas riset, pedagogi, dan mentoring lebih kuat sehingga mendukung keberhasilan akademik mahasiswa.
+
+#### 4. Bar Chart: Perbandingan Private vs Public
+Chart ini membandingkan dua kategori universitas:
+- **(Private)** → ditampilkan dengan bar **hijau**
+- **(Public)** → ditampilkan dengan bar **biru**
+Untuk dua variabel utama:
+- **# appl. accepted** (jumlah aplikasi yang diterima)
+- **estim. personal $** (perkiraan biaya pribadi mahasiswa)
+
+##### appl. accepted (Jumlah Aplikasi Diterima)
+- **Private** memiliki sebaran nilai yang lebih luas dan beberapa puncak yang sangat tinggi.
+- Bar hijau tampak lebih bervariasi, menunjukkan bahwa **private menerima lebih banyak aplikasi dalam beberapa kasus**.
+- **Public** lebih rendah dan cenderung konsisten, dengan bar biru yang relatif pendek dan stabil.
+➡ Kesimpulan
+Universitas **Private** memiliki kapasitas penerimaan aplikasi yang lebih besar atau lebih fluktuatif dibandingkan **Public**, yang menunjukkan permintaan yang lebih kuat atau selektivitas lebih fleksibel.
+
+##### estim. personal $ (Perkiraan Biaya Pribadi)
+- **Private** secara umum memiliki bar yang jauh lebih tinggi.
+- Hal ini memperlihatkan bahwa biaya personal pada kategori **Private** relatif lebih mahal.
+- **Public** memiliki bar lebih pendek dan stabil, menunjukkan biaya personal yang lebih rendah.
+➡ Kesimpulan 
+Biaya personal mahasiswa di **Private** lebih tinggi dibandingkan **Public**, sehingga menunjukkan:
+- standar hidup dan fasilitas mungkin lebih premium,
+- atau kebijakan pembiayaan kampus yang lebih tinggi.
+  
+#### 📝 Ringkasan
+
+| Variabel | Private (1) | Public (2) |
+|----------|--------------|-------------|
+| # appl. accepted | Tinggi & bervariasi | Rendah & stabil |
+| estim. personal $ | Cenderung mahal | Relatif lebih terjangkau |
 ---
+
 
 ### 🧠 Tahap Data Processing & Klasifikasi
 
