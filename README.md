@@ -29,8 +29,7 @@ Analisis ini menggunakan **1.300 universitas di US** dengan tujuan mencari insig
 ### 📈 Visualisasi (insight yang didapat dari visualisasi)
 #### 1. Histogram : Sebaran Graduation Rate (Tingkat Kelulusan)
 ## Histogram – Graduation Rate
-
-![Histogram Graduation Rate](attachment:IMG_7036.jpeg)
+<img src="IMG_7036.jpeg" width="700" height="400">
 
 
 - Mayoritas universitas berada pada **graduation rate tinggi (70–90%)**.
