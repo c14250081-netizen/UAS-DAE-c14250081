@@ -42,6 +42,7 @@ Analisis ini menggunakan **1.300 universitas di US** dengan tujuan mencari insig
 - Proses seleksi mahasiswa cukup ketat, sehingga mahasiswa yang diterima memiliki kesiapan akademik tinggi.
 
 #### 2. Histogram : Sebaran % Faculty with PhD
+<img src="IMG_7035.jpeg" width="700" height="400">
 - Distribusi persentase dosen bergelar PhD cukup menyebar, namun mayoritas berada pada kisaran **50–80%**.
 - Terdapat beberapa outlier dengan persentase dosen PhD **mendekati 95–100%**, menunjukkan kualitas akademik sangat tinggi.
 ##### Insight
@@ -64,6 +65,7 @@ Semakin tinggi persentase dosen PhD dalam suatu universitas, semakin tinggi pula
 - Dosen bergelar PhD biasanya memiliki kapasitas riset, pedagogi, dan mentoring lebih kuat sehingga mendukung keberhasilan akademik mahasiswa.
 
 #### 4. Bar Chart: Perbandingan Private vs Public
+<img src="IMG_7033.jpeg" width="700" height="400">
 Chart ini membandingkan dua kategori universitas:
 - **(Private)** → ditampilkan dengan bar **hijau**
 - **(Public)** → ditampilkan dengan bar **biru**
