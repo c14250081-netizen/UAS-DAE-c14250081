@@ -51,6 +51,7 @@ Analisis ini menggunakan **1.300 universitas di US** dengan tujuan mencari insig
 - Kualitas pengajaran yang lebih baik dan berbasis riset mutakhir.
 
 #### 3. Scatter Plot: % Faculty PhD vs Graduation Rate
+<img src="IMG_7034.jpeg" width="700" height="400">
 Visualisasi menunjukkan adanya **korelasi positif** antara:
 - persentase dosen bergelar PhD, dan  
 - tingkat kelulusan mahasiswa (graduation rate).
